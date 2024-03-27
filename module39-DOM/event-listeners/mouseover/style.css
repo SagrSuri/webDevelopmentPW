@@ -1,0 +1,17 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: conic-gradient(#ffa500, #0db6ff, #ffffff, #22f522);
+  }
+  
+  #box {
+    width: 20rem;
+    background-color: #080bb6;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+  }

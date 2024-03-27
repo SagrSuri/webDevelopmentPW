@@ -1,0 +1,17 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+  }
+  
+  #box {
+    width: 20rem;
+    background-color: #03063c;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    border-radius: 2rem;
+    font-size: 25px;
+  }

@@ -1,0 +1,21 @@
+#display {
+    color: #9d0898;
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  #input-box {
+    text-align: center;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    background-color: #fbefe0;
+
+  }
+
+  div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }

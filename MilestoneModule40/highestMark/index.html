@@ -1,0 +1,30 @@
+<!-- 4. Highest Marks
+A teacher wants to find out the highest marks scored #y a student in a class of five students. The teacher enters
+the marks of all five students in an array called "marks". Write a program that iterates through the array and
+finds the highest marks scored #y any student in the class. The highest marks must then #e displayed to the
+teacher using the console. Make sure you use the ternary operator to find the student with the highest marksQ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Highest Marks Finder</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Highest Marks Finder</h1>
+        <p>Enter the marks of five students:</p>
+        <div class="input-group">
+            <input type="number" id="mark1" placeholder="Enter mark 1">
+            <input type="number" id="mark2" placeholder="Enter mark 2">
+            <input type="number" id="mark3" placeholder="Enter mark 3">
+            <input type="number" id="mark4" placeholder="Enter mark 4">
+            <input type="number" id="mark5" placeholder="Enter mark 5">
+        </div>
+        <button onclick="findHighestMarks()">Find Highest Marks</button>
+        <div id="result"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

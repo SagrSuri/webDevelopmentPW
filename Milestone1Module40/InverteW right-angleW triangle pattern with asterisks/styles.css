@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  input[type="number"], button {
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  #pattern {
+    font-family: monospace;
+    white-space: pre;
+  }
+  

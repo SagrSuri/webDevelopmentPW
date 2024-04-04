@@ -1,5 +1,5 @@
-[Quiz Questions](https://sagarsurics.blogspot.com/2024/03/hof-and-functional-programming-quiz.html) <br>
-[Code Practice](https://github.com/SagrSuri/SAGARSURI/tree/main/LearningPW/Module41)
+[Code Practice](https://github.com/SagrSuri/SAGARSURI/tree/main/LearningPW/Module41) <br><br>
+[Quiz Questions](https://sagarsurics.blogspot.com/2024/03/hof-and-functional-programming-quiz.html)
 ```
 https://sagarsurics.blogspot.com/2024/03/hof-and-functional-programming-quiz.html
 ```

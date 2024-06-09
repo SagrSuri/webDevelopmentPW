@@ -1,0 +1,206 @@
+{
+  "men": [
+    {
+      "index": 1,
+      "name": "John Doe",
+      "gender": "male",
+      "age": 30,
+      "ismarried": false,
+      "favorite_color": "Blue",
+      "city": "New York",
+      "favorite_book": "The Great Gatsby"
+    },
+    {
+      "index": 2,
+      "name": "Mike Smith",
+      "gender": "male",
+      "age": 25,
+      "ismarried": true,
+      "favorite_color": "Green",
+      "city": "Los Angeles",
+      "favorite_book": "Moby Dick"
+    },
+    {
+      "index": 3,
+      "name": "Robert Brown",
+      "gender": "male",
+      "age": 35,
+      "ismarried": false,
+      "favorite_color": "Red",
+      "city": "Chicago",
+      "favorite_book": "1984"
+    },
+    {
+      "index": 4,
+      "name": "James Williams",
+      "gender": "male",
+      "age": 28,
+      "ismarried": true,
+      "favorite_color": "Yellow",
+      "city": "Houston",
+      "favorite_book": "War and Peace"
+    },
+    {
+      "index": 5,
+      "name": "David Jones",
+      "gender": "male",
+      "age": 40,
+      "ismarried": false,
+      "favorite_color": "Purple",
+      "city": "Phoenix",
+      "favorite_book": "Pride and Prejudice"
+    },
+    {
+      "index": 6,
+      "name": "Richard Garcia",
+      "gender": "male",
+      "age": 33,
+      "ismarried": true,
+      "favorite_color": "Orange",
+      "city": "Philadelphia",
+      "favorite_book": "The Catcher in the Rye"
+    },
+    {
+      "index": 7,
+      "name": "Joseph Martinez",
+      "gender": "male",
+      "age": 29,
+      "ismarried": false,
+      "favorite_color": "Black",
+      "city": "San Antonio",
+      "favorite_book": "The Hobbit"
+    },
+    {
+      "index": 8,
+      "name": "Charles Hernandez",
+      "gender": "male",
+      "age": 26,
+      "ismarried": true,
+      "favorite_color": "White",
+      "city": "San Diego",
+      "favorite_book": "To Kill a Mockingbird"
+    },
+    {
+      "index": 9,
+      "name": "Thomas Clark",
+      "gender": "male",
+      "age": 31,
+      "ismarried": false,
+      "favorite_color": "Pink",
+      "city": "Dallas",
+      "favorite_book": "Great Expectations"
+    },
+    {
+      "index": 10,
+      "name": "Christopher Lewis",
+      "gender": "male",
+      "age": 27,
+      "ismarried": true,
+      "favorite_color": "Brown",
+      "city": "San Jose",
+      "favorite_book": "The Odyssey"
+    }
+  ],
+  "women": [
+    {
+      "index": 1,
+      "name": "Jane Doe",
+      "gender": "female",
+      "age": 28,
+      "ismarried": true,
+      "favorite_color": "Pink",
+      "city": "Chicago",
+      "favorite_book": "Little Women"
+    },
+    {
+      "index": 2,
+      "name": "Emily Johnson",
+      "gender": "female",
+      "age": 32,
+      "ismarried": false,
+      "favorite_color": "Purple",
+      "city": "Houston",
+      "favorite_book": "Jane Eyre"
+    },
+    {
+      "index": 3,
+      "name": "Sarah Lee",
+      "gender": "female",
+      "age": 24,
+      "ismarried": true,
+      "favorite_color": "Blue",
+      "city": "Phoenix",
+      "favorite_book": "Wuthering Heights"
+    },
+    {
+      "index": 4,
+      "name": "Megan Wilson",
+      "gender": "female",
+      "age": 27,
+      "ismarried": false,
+      "favorite_color": "Green",
+      "city": "Philadelphia",
+      "favorite_book": "The Alchemist"
+    },
+    {
+      "index": 5,
+      "name": "Amanda Brown",
+      "gender": "female",
+      "age": 29,
+      "ismarried": true,
+      "favorite_color": "Red",
+      "city": "San Antonio",
+      "favorite_book": "Gone with the Wind"
+    },
+    {
+      "index": 6,
+      "name": "Jessica Davis",
+      "gender": "female",
+      "age": 31,
+      "ismarried": false,
+      "favorite_color": "Yellow",
+      "city": "San Diego",
+      "favorite_book": "The Book Thief"
+    },
+    {
+      "index": 7,
+      "name": "Sophia Martinez",
+      "gender": "female",
+      "age": 26,
+      "ismarried": true,
+      "favorite_color": "Orange",
+      "city": "Dallas",
+      "favorite_book": "Harry Potter"
+    },
+    {
+      "index": 8,
+      "name": "Olivia Rodriguez",
+      "gender": "female",
+      "age": 33,
+      "ismarried": false,
+      "favorite_color": "Black",
+      "city": "San Jose",
+      "favorite_book": "The Fault in Our Stars"
+    },
+    {
+      "index": 9,
+      "name": "Ava Hernandez",
+      "gender": "female",
+      "age": 35,
+      "ismarried": true,
+      "favorite_color": "White",
+      "city": "New York",
+      "favorite_book": "The Girl on the Train"
+    },
+    {
+      "index": 10,
+      "name": "Isabella Garcia",
+      "gender": "female",
+      "age": 30,
+      "ismarried": false,
+      "favorite_color": "Brown",
+      "city": "Los Angeles",
+      "favorite_book": "The Hunger Games"
+    }
+  ]
+}

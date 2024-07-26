@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWSkills Blog - View Post</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="./index.html" style="cursor: pointer; color: greenyellow; text-decoration: none;"><h1>⏪ Back</h1></a>
+    </header>
+    
+    <main id="blog-content" class="blog-view">
+        <!-- Blog content will be dynamically added here -->
+    </main>
+
+    <script src="script.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const blogContent = document.getElementById('blog-content');
+            if (blogContent) {
+                const blog = JSON.parse(localStorage.getItem('currentBlog'));
+                if (blog) {
+                    blogContent.innerHTML = `
+                        <h2>
+                            ${blog.title}
+                            <img src="${blog.poster}" alt="${blog.title}">
+                        </h2>
+                        <p>${blog.description}</p>
+                        <div>${blog.content}</div>
+                    `;
+                }
+            }
+        });
+    </script>
+</body>
+</html>

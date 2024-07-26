@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWSkills Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Other CSS code */
+
+        .blog-post button.delete-btn {
+            background-color: #ff4d4d;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            margin-top: 0.5rem;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .blog-post button.delete-btn:hover {
+            background-color: #e60000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PW Skills Blog</h1>
+        <button id="add-blog-btn"> + </button>
+    </header>
+
+    <main id="blog-list">
+        <!-- Blog posts will be dynamically added here -->
+    </main>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <form id="blog-form">
+                <label for="poster">Enter Blog Post URL:</label>
+                <input type="text" id="poster" name="poster" required>
+                
+                <label for="title">Enter Blog Title:</label>
+                <input type="text" id="title" name="title" required>
+                
+                <label for="description">Enter Blog Description:</label>
+                <input type="text" id="description" name="description" required>
+                
+                <label for="content">Write:</label>
+                <textarea id="content" name="content" required></textarea>
+                
+                <button type="submit">Add Blog</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

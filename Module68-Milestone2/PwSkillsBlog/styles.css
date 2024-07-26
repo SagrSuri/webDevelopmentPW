@@ -1,0 +1,210 @@
+/* Reset and Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Add Blog Button */
+#add-blog-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Main Content Area */
+main {
+    padding: 2rem;
+}
+
+/* Blog List */
+#blog-list {
+    display: flex;
+    gap: 1rem;
+}
+
+/* Individual Blog Post */
+.blog-post {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.blog-post img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.blog-post h3 {
+    margin-top: 0;
+}
+
+.blog-post p {
+    color: #666;
+}
+
+.blog-post button {
+    background-color: #ff7f50;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    width: 50%;
+    position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Blog View Styles */
+.blog-view {
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-view h2 {
+    background-color: #6a0dad;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 10px 10px 0 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog-view h2 img {
+    border-radius: 20px;
+    margin-left: 1rem;
+    width: 440px;
+    height: 240px;
+}
+
+.blog-view img {
+    width: 100%;
+    height: auto;
+    border-radius: 0 0 10px 10px;
+}
+
+.blog-view p {
+    font-size: 1rem;
+    color: #333;
+    margin: 1rem 0;
+}
+
+.blog-view div {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5;
+}
+
+
+/* new css for form */
+/* Form Styles */
+#blog-form {
+    height: 350px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Label Styles */
+#blog-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+/* Input Styles */
+#blog-form input[type="text"],
+#blog-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Textarea Styles */
+#blog-form textarea {
+    width: 100%;
+        min-height: 50px; /* Set a minimum height */
+        max-height: 100px; /* Set a maximum height */
+        resize: none; /* Disable resizing */
+        overflow-y: auto; /* Enable vertical scroll if content exceeds height */
+    
+}
+
+/* Button Styles */
+#blog-form button[type="submit"] {
+    background-color: #6a0dad;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#blog-form button[type="submit"]:hover {
+    background-color: #4b0777;
+}
+
+#blog-form button[type="submit"]:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(106, 13, 173, 0.5);
+}
